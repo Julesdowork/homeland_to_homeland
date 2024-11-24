@@ -1,9 +1,13 @@
 .lead {
-  /* max-width: 984px; */
+  max-width: 984px;
+  display: flex;
+  flex-direction: column;
+  padding: 90px 20px 0;
+  margin: 0 auto;
 }
 
 .lead__title {
-  margin: 90px auto 0;
+  margin: 0 auto;
   color: #fff;
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-size: 96px;
@@ -26,5 +30,6 @@
 
 .lead__image {
   margin-top: 64px;
+  width: 100%;
   filter: grayscale(100%);
 }

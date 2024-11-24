@@ -1,10 +1,10 @@
 .intro {
-  width: 100%;
+  padding: 92px 20px 0;
 }
 
 .intro__heading {
   max-width: 785px;
-  margin-top: 92px;
+  margin: 0;
   color: #fff;
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-size: 54px;
@@ -21,12 +21,12 @@
   font-size: 24px;
   font-weight: 400;
   line-height: 1.4;
-  text-align: left;
 }
 
 .intro__cite {
   margin-top: 10px;
   max-width: 720px;
+  align-self: end;
   color: #fff;
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-size: 24px;
@@ -37,6 +37,7 @@
 
 .intro__description {
   margin-top: 32px;
+  margin-bottom: 0;
   max-width: 720px;
   color: #fff;
   font-family: Inter, Arial, Helvetica, sans-serif;
