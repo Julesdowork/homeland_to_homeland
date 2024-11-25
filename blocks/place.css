@@ -1,0 +1,19 @@
+.place {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 48px 40px;
+  align-items: end;
+}
+
+.place__name {
+  max-width: 460px;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 72px;
+  line-height: 1.05;
+  font-weight: 900;
+  color: #fff;
+  margin: 0;
+}
+
+.place__artist-container {
+}

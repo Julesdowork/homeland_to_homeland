@@ -1,0 +1,11 @@
+.places {
+  padding-top: 92px;
+  margin: 0 auto;
+  max-width: 987px;
+}
+
+.places__list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
