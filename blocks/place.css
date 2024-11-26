@@ -2,7 +2,13 @@
   display: flex;
   flex-wrap: wrap;
   gap: 48px 40px;
-  align-items: end;
+  align-items: start;
+  justify-content: start;
+  padding-bottom: 80px;
+}
+
+.place:last-of-type {
+  padding-bottom: 0;
 }
 
 .place__name {
@@ -16,4 +22,54 @@
 }
 
 .place__artist-container {
+  align-self: end;
+}
+
+.place__artist-label {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  color: #aaa;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin: 0 0 8px;
+}
+
+.place__artist-info {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.2;
+  color: #fff;
+  margin: 0 0 8px;
+}
+
+.place__paragraph-container {
+  max-width: 484px;
+  align-self: start;
+}
+
+.place__paragraph {
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.63;
+  color: #fff;
+  margin: 0;
+}
+
+.place__paragraph:first-of-type {
+  margin-bottom: 25px;
+}
+
+.place__buy-button {
+  width: 248px;
+  height: 48px;
+  background-color: #0278fe;
+  font-family: Inter, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
 }
